@@ -4,49 +4,57 @@ https://bing.ioliu.cn/v1/rand
 2019-06-09
 TImeLine
 <p>
-  <time>2020-06-16</time><br>
-  我们今天部署了一个更新:网页打开显示的图片会随机更换，一共是5000张图片。毫无疑问，中间有些图片并不太优雅。有趣的是当遇到一些很不错图片时，如果不会使用F12，那就没有什么好办法保存这张图片。或许这就是人生:遇见了，却做不了什么。<br>
-当然知识改变命运：仔细研究的的话，能找到我们的储存池，可以直接下载5000张图片，然后慢慢探索，找到喜欢的那一张图片。<br>
-技术也是有用的，可以截图去搜索引擎找。另一个问题就出现了：为了优化网页速度图片是压缩过的，在互联网上也能找到其他的压缩版本。然而它们并不一样，只是看起来很像：在遇见了一些美好事物以后，去追寻往往只能是一个赝品了。<br>
-人生呵<br>
-为了避免你也产生这些思考，我决定告诉你怎么找到这些壁纸：<br>
-<a href="https://support.microsoft.com/en-US/help/13768/desktop-themes-featured">Desktop-Themes-Featured</a>,<a href="https://support.microsoft.com/en-US/help/17780/wallpapers">Wallpapers</a>,<a href="https://windows10spotlight.com/">Windows10Spotlight</a>,<a href="https://github.com/alinggo">Global_Bucket</a>,<a href="https://gitee.com/bitdust">储存池中国镜像</a><br>
-F12（Google Chrome为例）:按下F12，点击Sources,会有一个p1或者p0/p2/p3，打开，移到右侧图片上，右键，Save。完！<br>
-<a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Google Image</a>,<a href="https://image.baidu.com/">百度图像</a>
-</p>
-<blockquote>请遵守当地法律</blockquote>
-<p>另一个问题：如果在手机上不够好看的话，可以试试电脑。设计的时候是按照横屏设计的。摄影师的镜头也是横的。</p>
-<p>
-  <time>2020-06-07</time><br>
-  <a href="/go/2019_2020.html">在高考一周年纪念日思考过去的一年</a>
+    <time>2020-06-18</time><br>
+    大概每个人的一生都会有无数次和敲下F12一样的举动：站在大街上决定了从什么路口走,在门口犹豫什么时候打开又或者什么时候打开，在某一瞬间去用直觉选择到底怎么办。几乎不可能清楚的预测这些行为的意义，在复盘的时候也没有办法清晰的发现到底发生了什么。现在我知道了：如果人生之前的岁月里无意间敲下了F12，并且探索了一下F12，会在之后人生里遇到一个随机背景的网站，在遇到自己喜欢的图片时从容不迫地保存<br>
+    而现在，同样没人能够预测这张图片的意义是什么。或许在许多年后会遇到一个人，值得分享。<br>
+    这个问题让我重新思考了“但行好事，不问前程”。在我最初认真思考时，我认为这是一句显而易见的不正确的话。但行好事！在未来的某一天，会有人值得分享这个博客的！
 </p>
 <hr>
+
 <p>
-  <time>2020-05-28</time><br>
-  捕鱼看花&捕鸟<br>
-
-  <!--                 <img src="../img/0-0-0_4608_2592_14966A9DC122C170C82DC7E39D4D79B4A347AB79.jpg"> -->
-
-  <img src="../img/0-0-0_4608_2592_3122A6B0E17FAC9CC30D089BD8242A3ACF2FA0A7.jpg">
-  <img src="../img/0-0-0_4608_2592_719CF7DB065356E477904F1BD57855C93E7C8B68.jpg">
-  <img src="../img/0-0-0_4608_2592_6E3C933BA69FB30E7846D79C86D64D38CB765576.jpg">
-  <img src="../img/0-0-0_4608_2592_AAC6C7A448DA47B63148BAEB2E8C9CB2405E78B3.jpg">
-  <img src="../img/0-0-0_4608_2592_C15725449F59E613DF3C1DDA11CEC039CBE97536.jpg">
-  <img src="../img/0-0-0_4608_2592_C4EA2C5492AB68740275DB475C26E382A61EF206.JPG">
-  <img src="../img/0-0-0_4608_2592_EBE1C5977C3CAFEBB760C61620EC905E81748732.jpg">
-  <img src="../img/0-0-0_4608_2592_1860407D2930C180703D34391BE8548583AC89BD.JPG">
-  <img src="../img/0-0-0_4192_2358_A51F0150A3443ED01CF9D72BAC8826880ED144D4.JPG">
-  <img src="../img/0-0-0_4608_2592_08C2A426A52C93C5547DC51E11F841B5612A6F88.jpg">
+    <time>2020-06-16</time><br>
+    我们今天部署了一个更新:网页打开显示的图片会随机更换，一共是5000张图片。毫无疑问，中间有些图片并不太优雅。有趣的是当遇到一些很不错图片时，如果不会使用F12，那就没有什么好办法保存这张图片。或许这就是人生:遇见了，却做不了什么。<br>
+    当然知识改变命运：仔细研究的的话，能找到我们的储存池，可以直接下载5000张图片，然后慢慢探索，找到喜欢的那一张图片。<br>
+    技术也是有用的，可以截图去搜索引擎找。另一个问题就出现了：为了优化网页速度图片是压缩过的，在互联网上也能找到其他的压缩版本。然而它们并不一样，只是看起来很像：在遇见了一些美好事物以后，去追寻往往只能是一个赝品了。<br>
+    人生呵<br>
+    为了避免你也产生这些思考，我决定告诉你怎么找到这些壁纸：<br>
+    <a href="https://support.microsoft.com/en-US/help/13768/desktop-themes-featured">Desktop-Themes-Featured</a>,<a href="https://support.microsoft.com/en-US/help/17780/wallpapers">Wallpapers</a>,<a href="https://windows10spotlight.com/">Windows10Spotlight</a>,<a href="https://github.com/alinggo">Global_Bucket</a>,<a href="https://gitee.com/bitdust">储存池中国镜像</a><br>
+    F12（Google Chrome为例）:按下F12，点击Sources,会有一个p1或者p0/p2/p3，打开，移到右侧图片上，右键，Save。完！<br>
+    <a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Google Image</a>,<a href="https://image.baidu.com/">百度图像</a>
+</p>
+<blockquote>
+    请遵守当地法律
+</blockquote>
+<p>
+    另一个问题：如果在手机上不够好看的话，可以试试电脑。设计的时候是按照横屏设计的。摄影师的镜头也是横的。
 </p>
 <hr>
+
 <p>
-  <time>2020-05-22</time><br>
-  Beauty&Productive Forces<br>
-  <!--                 <img src="../img/0-0-0_4608_3456_6C94BCB87FA8A8551312CFBAE5EC35AA1888CBE3.JPG"> -->
-  <img src="../img/0-0-0_4608_3456_4F4E84B7DB289F658B02B65EFE1FC144827276B6.JPG">
-<!--                 <img src="../img/0-0-0_4608_3456_3CB2B449F5F9CB847E7007C635F067BDABDF01BB.JPG">
-                <img src="../img/0-0-0_4608_3456_33885A3005FD9F145393587C6DB5811FB1429233.JPG">
-                <img src="../img/0-0-0_4608_3456_929487D2F6581AC48459A556C20FBB1356373ACE.JPG">
-                <img src="../img/0-0-0_4608_3456_B0361858A804499E7CEC4CEABE6116CD35809ED8.JPG"> -->
-              </p>
-              <hr>
+    <time>2020-06-07</time><br>
+    <a href="/go/2019_2020.html">在高考一周年纪念日思考过去的一年</a>
+</p>
+<hr>
+
+<p>
+    <time>2020-05-28</time><br>
+    捕鱼看花&捕鸟<br>
+    <img src="../img/0-0-0_4608_2592_3122A6B0E17FAC9CC30D089BD8242A3ACF2FA0A7.jpg">
+    <img src="../img/0-0-0_4608_2592_719CF7DB065356E477904F1BD57855C93E7C8B68.jpg">
+    <img src="../img/0-0-0_4608_2592_6E3C933BA69FB30E7846D79C86D64D38CB765576.jpg">
+    <img src="../img/0-0-0_4608_2592_AAC6C7A448DA47B63148BAEB2E8C9CB2405E78B3.jpg">
+    <img src="../img/0-0-0_4608_2592_C15725449F59E613DF3C1DDA11CEC039CBE97536.jpg">
+    <img src="../img/0-0-0_4608_2592_C4EA2C5492AB68740275DB475C26E382A61EF206.JPG">
+    <img src="../img/0-0-0_4608_2592_EBE1C5977C3CAFEBB760C61620EC905E81748732.jpg">
+    <img src="../img/0-0-0_4608_2592_1860407D2930C180703D34391BE8548583AC89BD.JPG">
+    <img src="../img/0-0-0_4192_2358_A51F0150A3443ED01CF9D72BAC8826880ED144D4.JPG">
+    <img src="../img/0-0-0_4608_2592_08C2A426A52C93C5547DC51E11F841B5612A6F88.jpg">
+</p>
+<hr>
+
+<p>
+    <time>2020-05-22</time><br>
+    Beauty&Productive Forces<br>
+    <img src="../img/0-0-0_4608_3456_4F4E84B7DB289F658B02B65EFE1FC144827276B6.JPG">
+</p>
+<hr>
