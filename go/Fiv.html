@@ -1,1 +1,150 @@
-<title>Five_技能：系统性处理文件备份</title><img id="image_frame_pic" alt="image frame" /><span>这个方案主要解决：论文等生产力项目的备份；照片等日常文件的有效储存。</span><time>先说结论：</time><h1 class="title"><a>1.0 适合谁:有文件备份需求,有一定付费能力的意愿(约200年)</a></h1>1.1 只有几个文件加一小点不太重要的照片且要求较低：随意,看谁顺眼用谁，反正都能用，难用就难用,偶尔丢个文件也无所谓。 1.2 要求较高（文件不能丢，需要一定可用性）： 1.2.1 国内网络环境：百度云加坚果云或者世纪互联版onedrive。成本最高400每年，平均成本约200上下 1.2.2 国际互联网环境：Dropbox加telegram加任意一家网盘进行冷备份。成本最高约1200，正常用用成本0  科普： 2.1 同步盘：能够自动将正在处理的文件备份到云端， 2.2 网盘：类似一块在网上的硬盘，储存文件用 2.3 更专业的科普：http://www.jianguoyun.com/s/content/13502.html 2.4 数据丢了，会发生什么。网课作业丢了:从被骂到挂科。论文丢了：你说呢。照片丢了：一些再也不会在现实中相见的人在网上也见不到了。 2.5 数据恢复的价格超出了真.Five的承受能力.一些严重的问题(硬盘坏了等)以千为单位结算.  我们需要什么？ 3.1 同步盘用于同步文档等，大部分同步盘能做到在完成更改以后一分钟之内将更改上传到云端。云端可以避免本地端的事故：误删，硬件损坏等。 3.2 网盘用于储存数据量比较大的（同步盘往往较贵），且不会经常更改的文件，比如照片。 3.3 数据的备份，云端也不是绝对可靠，从挖断光纤到机房失火都有可能。宝贵的数据需要狡兔三窟。  一些国内服务提供商 4.1 百度网盘 4.1.1 好处:便宜,合买的话50上下,自己买也就200左右.提供免费容量 4.1.2 坏处:不是那么的靠谱,文件的各种问题我都见过,不适合存生产力业务.开了会员速度依旧偶然离谱. 4.2 坚果云 4.2.1 好处:国内顶尖的同步盘,技术还算可以.提供免费容量 4.2.2 坏处:贵,容量小(200人民币30g每年) 4.3 世纪互联OneDrive 4.3.1 好处:微软大厂技术,真正的商用生产力服务.如果用office套件的话,无缝衔接.容量较大.约350人民币1000g年.不提供免费容量,提供全量试用. 4.3.2 坏处:正常人找不到购买链接.可以问我怎么买,确实有点复杂. 个人比较推荐世纪互联的onedrive,因为我用office.  一些国外服务提供商 5.1 Dropbox 5.1.1 好处:历史悠久的同步盘提供商,提供最大18g的免费容量.技术非常靠谱 5.1.2 坏处:价格离谱,付费版约1000人民币1000g年 5.2 Onedrive 5.2.1 好处:便宜50人民币1000g年(送office365),无缝连接office.提供最大15g的免费容量 5.2.2 个人版能用水平,商业版好一点 5.3 Telegram 5.3.1 好处:他是一个聊天软件,然而提供聊天记录无限备份.可以这样做:在只有自己的频道(频道随意创建)里发一些需要保存的文件,但是这些文件只是看看就行,不需要其他的操作.比如照片. 5.3.2 坏处:是一个聊天软件 5.3.3 这个软件可以做很多事情,比如Todo-list,Read-later,可以看报纸收邮件等等等,一个非常靠谱的万金油  总结: 这6个服务我都买了,最终方案是使用Dropbox同步文档等,在Telegram放照片.每个月的第一个周六加密Dropbox和Telegram的所有文件,上传至百度网盘和世纪互联Onedrive  Tips 6.1 git 专业的版本控制工具,非常强大.强大到普通人(无计算机相关经验)搞不定 6.2 Resilio Sync 多设备间的文件自动同步 6.3 微力同步 Resilio Sync的中国版 6.4 Duplicati 自动备份文件的神器 6.5 nextcloud 自建云盘 6.6 各大云厂商均提供对象储存,很贵,很厉害.不适合普通人 6.7 没事不要自建  附言  7.1 我可以免费提供上面所有软件的技术支持,前提:不伤害我,不商业. 7.2 我可以免费帮大家解决日常中的大部分软件网络问题,前提:不伤害我,不商业.专业软件别找我,我不懂,哈哈. 7.3 我保留要求技术支持付费的权力,同时我可以拒绝某些人的不合理要求 7.3 我可以提供文件相关领域的各种解决方案:自动备份,自动分类,自动格式化 7.3 本文所有权力保留. 7.4 我希望有其他技能的Five们,也分享一下.毕竟折腾这些................实在太爽了,爽的钱包空空
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+
+<title>Five_技能：系统性处理文件备份</title>
+  <meta name="author" content="BitDust" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link href="/image/857ECC4391161B6E107E7C7F1C78325442881CEDEB1600966254C9C58DA3A0FC.ico" rel="icon" />
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+</head>
+
+<body>
+
+  <section class="cover">
+    <div class="cover-frame">
+      <div class="bg-box">
+<img id="image_frame_pic" alt="image frame" />
+      </div>
+      <div class="cover-inner text-center text-white">
+        <h2>
+<span>这个方案主要解决：论文等生产力项目的备份；照片等日常文件的有效储存。</span>
+        </h2>
+      </div>
+      <div  id="image_frame" class="cover-learn-more"><img src="/image/9BA1D697BC373FD33994F0D7372B1DBE9A3D650BBC982A75D0A35CFC6127518A.png"></div>
+    </div>
+  </section>
+
+<div id="content" class="inner">
+    <div id="main-col" class="alignleft">
+      <div id="wrapper">
+        <article class="post">
+
+          <div class="post-content">
+            <header>
+
+              <div class="icon"></div>
+<time>先说结论：</time>
+<h1 class="title"><a>1.0 适合谁:有文件备份需求,有一定付费能力的意愿(约200年)</a></h1>
+              <hr>
+            </header>
+            <div class="entry">
+1.1 只有几个文件加一小点不太重要的照片且要求较低：随意,看谁顺眼用谁，反正都能用，难用就难用,偶尔丢个文件也无所谓。
+1.2 要求较高（文件不能丢，需要一定可用性）：
+1.2.1 国内网络环境：百度云加坚果云或者世纪互联版onedrive。成本最高400每年，平均成本约200上下
+1.2.2 国际互联网环境：Dropbox加telegram加任意一家网盘进行冷备份。成本最高约1200，正常用用成本0
+
+科普：
+2.1 同步盘：能够自动将正在处理的文件备份到云端，
+2.2 网盘：类似一块在网上的硬盘，储存文件用
+2.3 更专业的科普：http://www.jianguoyun.com/s/content/13502.html
+2.4 数据丢了，会发生什么。网课作业丢了:从被骂到挂科。论文丢了：你说呢。照片丢了：一些再也不会在现实中相见的人在网上也见不到了。
+2.5 数据恢复的价格超出了真.Five的承受能力.一些严重的问题(硬盘坏了等)以千为单位结算.
+
+我们需要什么？
+3.1 同步盘用于同步文档等，大部分同步盘能做到在完成更改以后一分钟之内将更改上传到云端。云端可以避免本地端的事故：误删，硬件损坏等。
+3.2 网盘用于储存数据量比较大的（同步盘往往较贵），且不会经常更改的文件，比如照片。
+3.3 数据的备份，云端也不是绝对可靠，从挖断光纤到机房失火都有可能。宝贵的数据需要狡兔三窟。
+
+一些国内服务提供商
+4.1 百度网盘
+4.1.1 好处:便宜,合买的话50上下,自己买也就200左右.提供免费容量
+4.1.2 坏处:不是那么的靠谱,文件的各种问题我都见过,不适合存生产力业务.开了会员速度依旧偶然离谱.
+4.2 坚果云
+4.2.1 好处:国内顶尖的同步盘,技术还算可以.提供免费容量
+4.2.2 坏处:贵,容量小(200人民币30g每年)
+4.3 世纪互联OneDrive
+4.3.1 好处:微软大厂技术,真正的商用生产力服务.如果用office套件的话,无缝衔接.容量较大.约350人民币1000g年.不提供免费容量,提供全量试用.
+4.3.2 坏处:正常人找不到购买链接.可以问我怎么买,确实有点复杂.
+个人比较推荐世纪互联的onedrive,因为我用office.
+
+一些国外服务提供商
+5.1 Dropbox
+5.1.1 好处:历史悠久的同步盘提供商,提供最大18g的免费容量.技术非常靠谱
+5.1.2 坏处:价格离谱,付费版约1000人民币1000g年
+5.2 Onedrive
+5.2.1 好处:便宜50人民币1000g年(送office365),无缝连接office.提供最大15g的免费容量
+5.2.2 个人版能用水平,商业版好一点
+5.3 Telegram
+5.3.1 好处:他是一个聊天软件,然而提供聊天记录无限备份.可以这样做:在只有自己的频道(频道随意创建)里发一些需要保存的文件,但是这些文件只是看看就行,不需要其他的操作.比如照片.
+5.3.2 坏处:是一个聊天软件
+5.3.3 这个软件可以做很多事情,比如Todo-list,Read-later,可以看报纸收邮件等等等,一个非常靠谱的万金油
+
+总结:
+这6个服务我都买了,最终方案是使用Dropbox同步文档等,在Telegram放照片.每个月的第一个周六加密Dropbox和Telegram的所有文件,上传至百度网盘和世纪互联Onedrive
+
+Tips
+6.1 git 专业的版本控制工具,非常强大.强大到普通人(无计算机相关经验)搞不定
+6.2 Resilio Sync 多设备间的文件自动同步
+6.3 微力同步 Resilio Sync的中国版
+6.4 Duplicati 自动备份文件的神器
+6.5 nextcloud 自建云盘
+6.6 各大云厂商均提供对象储存,很贵,很厉害.不适合普通人
+6.7 没事不要自建
+
+附言 
+7.1 我可以免费提供上面所有软件的技术支持,前提:不伤害我,不商业.
+7.2 我可以免费帮大家解决日常中的大部分软件网络问题,前提:不伤害我,不商业.专业软件别找我,我不懂,哈哈.
+7.3 我保留要求技术支持付费的权力,同时我可以拒绝某些人的不合理要求
+7.3 我可以提供文件相关领域的各种解决方案:自动备份,自动分类,自动格式化
+7.3 本文所有权力保留.
+7.4 我希望有其他技能的Five们,也分享一下.毕竟折腾这些................实在太爽了,爽的钱包空空
+          </div>
+        </article>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+    <div id='bg' style="background-image: url('/image/A58E52CD1FF31A8E62F5D8F5F424EB63D03E8CB969481A4657474FEB08AB3DEC.jpg')"></div>
+  <script type="text/javascript">
+function random(min, max) {
+    return Math.round(Math.random() * (max - min)) + min;
+}
+var i=random(1,1250)
+var d=random(0,3)
+var url="/p"+d+"/"+i+".jpg"
+document.getElementById("image_frame_pic").src = url; 
+</script>
+  <footer id="header" class="inner">
+    <div class="alignleft">
+      <p>
+        &copy; 2019 BitDust All rights reserved.
+      </p>
+    </div>
+    <nav id="main-nav" class="alignright">
+      <ul>
+        <li><a href="https://bitdust.gitee.io/" target="_blank" rel="noopener">BitDust 中国镜像站</a></li>
+        <li><a href="https://bitdust.org/" target="_blank" rel="noopener">BitDust Global</a></li>
+        <li><a href=/agreement.html>User Agreement</a></li>
+        <li><a href=/about.html>About Us</a></li>
+      </ul>
+    </nav>
+    <div class="clearfix"></div>
+  </footer>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160690249-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-160690249-1');
+  </script>
+</body>
+
+</html>
