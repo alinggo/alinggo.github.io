@@ -40,7 +40,7 @@ null
 个人比较推荐世纪互联的onedrive,因为我用office.<br>
 </p>
 <p>
-一些国外服务提供商
+一些国外服务提供商<br>
 5.1 Dropbox<br>
 5.1.1 好处:历史悠久的同步盘提供商,提供最大18g的免费容量.技术非常靠谱<br>
 5.1.2 坏处:价格离谱,付费版约1000人民币1000g年<br>
@@ -57,7 +57,7 @@ null
 这6个服务我都买了,最终方案是使用Dropbox同步文档等,在Telegram放照片.每个月的第一个周六加密Dropbox和Telegram的所有文件,上传至百度网盘和世纪互联Onedrive<br>
 </p>
 <p>
-Tips
+Tips<br>
 6.1 git 专业的版本控制工具,非常强大.强大到普通人(无计算机相关经验)搞不定<br>
 6.2 Resilio Sync 多设备间的文件自动同步<br>
 6.3 微力同步 Resilio Sync的中国版(不好用)<br>
