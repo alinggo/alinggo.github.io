@@ -10,8 +10,7 @@ Weekly_Report#20_28
     通过Telegram官方的Gmail机器人接受Gmail邮件,完成最终通知到我
 </p>
 <p>
-    没有使用其他方案的原因<br> 
-    <br>
+    没有使用其他方案的原因
     <ul>
         <li>
             在最初的时候,我是准备使用Outlook的,因为已经用了很多微软的服务.但是Telegram官方没有提供Outlook的邮件接收机器人,Outlook日程转发到Gmail似乎有些问题.在我进行测试的时候发现Gmail和Google Calendar的网页版实在太流畅了,比Outlook好得多.经过测试决定使用Gmail
