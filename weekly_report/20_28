@@ -1,0 +1,36 @@
+Weekly_Report#20_28 | BitDust
+null
+时光仍在飞逝,岁月依旧流淌
+2019-07-11
+Weekly_Report#20_28
+<p>
+    迁移To-Do List,在经过一次又一次的探索之后,我完成了To-Do List的迁移.<br>
+    最终的方案是在Telegram建立多个频道,在各频道内记录一些零散的没有固定时间的To-Do<br>
+    在Google Calendar记录有明确时间的To-Do,通过Gmail发送邮件Daily agenda和Event notifications<br>
+    通过Telegram官方的Gmail机器人接受Gmail邮件,完成最终通知到我
+</p>
+<p>
+    没有使用其他方案的原因<br> 
+    <br>
+    <ul>
+        <li>
+            在最初的时候,我是准备使用Outlook的,因为已经用了很多微软的服务.但是Telegram官方没有提供Outlook的邮件接收机器人,Outlook日程转发到Gmail似乎有些问题.在我进行测试的时候发现Gmail和Google Calendar的网页版实在太流畅了,比Outlook好得多.经过测试决定使用Gmail
+        </li>
+        <li>
+            为什么不用微软或者其他家的To-Do,单独维护一个应用的成本实在太高了.我已经用Telegram部署了大量很不错的服务,决定继续使用
+        </li>
+        <li>
+            不好是:现在我离开谷歌智商降低一半,Telegram崩溃了,智商再降低一半.
+        </li>
+    </ul>
+</p>
+<p>
+    使用Project规划,上面已经说了To-Do的处理,在这一周我用了Project去规划和思考一些东西.很不错.
+</p>
+<p>
+    最终的文件管理方案:Dropbox用于同步文件,Telegram用于存放一些需要记录时间且只有读取需求的文件,比如照片,文章.<br>
+    在中国境内架设一台服务器用于同步Dropbox文件,防止Dropbox服务崩溃和网络崩溃.<br>
+    在每个月的第一个星期六手动备份Dropbox和Telegram到百度网盘和世纪互联Onedrive<br>
+    使用Git和Powershell对我产出的文档和图片进行自动化版本控制<br>
+    这是真的复杂,在搞定之后.真的省心
+</p>
