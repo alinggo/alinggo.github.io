@@ -47,7 +47,7 @@
 
 .cover-inner #subtitle-box,
 .cover-inner h1 {
-    font-family: Titillium Web, PingFang SC, Hiragino Sans GB, Microsoft JhengHei, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: font-family: "萍方-简",Titillium Web, PingFang SC, Hiragino Sans GB, Microsoft JhengHei, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .cover-inner #subtitle-box {
@@ -193,7 +193,7 @@ img {
 
 .cover-inner #subtitle-box,
 .cover-inner h1 {
-    font-family: Titillium Web, PingFang SC, Hiragino Sans GB, Microsoft JhengHei, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: font-family: "萍方-简","苹方-简",Titillium Web, PingFang SC, Hiragino Sans GB, Microsoft JhengHei, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .cover-inner #subtitle-box {
@@ -238,13 +238,13 @@ img {
 * {
     margin: 0;
     padding: 0;
-    font-family: "Microsoft YaHei";
+    font-family: font-family: "萍方-简","萍方-简","Microsoft YaHei";
 }
 
 body {
     color: #fff;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    font-size: 17px;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 1260px) {
@@ -265,7 +265,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Microsoft YaHei";
+    font-family: font-family: "萍方-简","Microsoft YaHei";
         color: #0cf;
 }
 
@@ -396,7 +396,7 @@ a:hover {
 }
 
 #header #main-nav {
-    font-family: "Microsoft YaHei";
+    font-family: font-family: "萍方-简","Microsoft YaHei";
     line-height: 2.5em;
 }
 
@@ -433,6 +433,7 @@ article .post-content {
     position: relative;
     margin-bottom: 50px;
     padding: 20px;
+        padding-top: 1px;
 }
 
 @media screen and (max-width: 600px) {
@@ -540,7 +541,7 @@ article .entry blockquote>:last-child {
 
 article .entry code,
 article .entry pre {
-    font-family: Consolas, Monaco, Lucida Console, monospace;
+    font-family: font-family: "萍方-简",Consolas, Monaco, Lucida Console, monospace;
 }
 
 article .entry code {
@@ -690,3 +691,4 @@ div#content.inner {
     top: 90%;
     }
 }
+ol{padding-left: 20px;}
